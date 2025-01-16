@@ -1,0 +1,37 @@
+2025-01-16 12:14:36,324 - INFO - Loading dataset...
+2025-01-16 12:14:36,359 - ERROR - Error loading dataset: [Errno 2] No such file or directory: 'path_to_loan_dataset.csv'
+2025-01-16 12:15:24,888 - INFO - Loading dataset...
+2025-01-16 12:15:24,899 - ERROR - Error loading dataset: [Errno 2] No such file or directory: 'data/loan_recommendation_datasetcsv'
+2025-01-16 12:15:54,265 - INFO - Loading dataset...
+2025-01-16 12:15:54,284 - INFO - Dataset loaded successfully.
+2025-01-16 12:15:54,303 - INFO - Data preview:    user_id  loan_id  ...  loan_interest_rate  user_location
+0        1      150  ...            0.278251              4
+1        2      135  ...            0.808064              3
+2        2      144  ...            0.690478              3
+3        2      121  ...            0.859453              3
+4        2      148  ...            0.773693              3
+
+[5 rows x 10 columns]
+2025-01-16 12:15:54,320 - INFO - Data split completed. Training data size: 4048, Test data size: 1012
+2025-01-16 12:15:54,420 - INFO - Model defined and compiled successfully.
+2025-01-16 12:15:54,420 - INFO - Starting model training...
+2025-01-16 12:15:55,807 - ERROR - Error during model training: 'charmap' codec can't encode characters in position 23-42: character maps to <undefined>
+2025-01-16 12:16:29,896 - INFO - Loading dataset...
+2025-01-16 12:16:29,921 - INFO - Dataset loaded successfully.
+2025-01-16 12:16:29,952 - INFO - Data preview:    user_id  loan_id  ...  loan_interest_rate  user_location
+0        1      150  ...            0.278251              4
+1        2      135  ...            0.808064              3
+2        2      144  ...            0.690478              3
+3        2      121  ...            0.859453              3
+4        2      148  ...            0.773693              3
+
+[5 rows x 10 columns]
+2025-01-16 12:16:30,013 - INFO - Data split completed. Training data size: 4048, Test data size: 1012
+2025-01-16 12:16:30,242 - INFO - Model defined and compiled successfully.
+2025-01-16 12:16:30,242 - INFO - Starting model training...
+2025-01-16 12:16:40,674 - INFO - Model training completed successfully.
+2025-01-16 12:16:40,674 - INFO - Evaluating model on test data...
+2025-01-16 12:16:40,896 - INFO - Test loss: 1.5834685564041138, Test MAE: 1.0416299104690552
+2025-01-16 12:16:40,896 - INFO - Saving the trained model...
+2025-01-16 12:16:40,896 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-16 12:16:40,951 - INFO - Model saved successfully.
